@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#211d44"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/bgbcircle"
+        android:layout_width="280dp"
+        android:layout_height="250dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginStart="60dp"
+        android:src="@drawable/bgcircle"
+
+        />
+    <ImageView
+        android:id="@+id/icacchor"
+        android:layout_width="360dp"
+        android:layout_height="350dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="19dp"
+        android:src="@drawable/icanchor"
+
+        />
+    
+    <Chronometer
+        android:id="@+id/timeclock"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="65dp"
+        android:layout_gravity="center"
+        android:textColor="#fff"
+        android:textSize="64sp"
+
+        />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btnstart"
+            android:layout_width="300dp"
+            android:layout_height="60dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_weight="1"
+            android:layout_gravity="center|bottom"
+            android:layout_marginBottom="16dp"
+            android:background="@drawable/btnshape"
+            android:text="Start Now"
+            android:textAllCaps="false"
+            android:textColor="#fff"
+            android:textSize="20sp"
+
+            />
+
+        <Button
+            android:id="@+id/btnstop"
+            android:layout_width="300dp"
+            android:layout_height="60dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_gravity="center|bottom"
+            android:layout_marginBottom="34dp"
+            android:background="@drawable/btnred"
+            android:text="Finish Workout"
+            android:textAllCaps="false"
+            android:textColor="#fff"
+            android:textSize="20sp"
+
+            />
+    </LinearLayout>
+
+
+</FrameLayout>
